@@ -1,0 +1,647 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Avenir Next", sans-serif;
+	background-color: #F8F9F4;
+	/* background-color: #FFFFFF; */
+}
+
+/* span {
+	display: 'block';
+} */
+.round p{
+	text-align: center;
+}
+
+.txt a {
+	color: #black;
+}
+
+.txt a:hover {
+  color: #9B9B9B;
+}
+
+.txt h1 {
+	color: #2980BA;
+	/* margin-bottom: 80px; */
+	margin-top: 100px;
+	font-size: 24px;
+	font-weight: bold; /* to be changed? */
+}
+
+.txt h2 {
+	color: #9B9B9B;
+	margin-top: 0px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal; /* to be changed? */
+}
+
+.txt h3 {
+	color: #2980BA;
+	margin-top: 0px;
+	font-size: 14px;
+	font-weight:bold; /* to be changed? */
+}
+
+.txt h4 {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.txt p {
+	color: #4A4A4A;
+	font-size: normal;
+	font-weight: normal; /* to be changed? */
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.txt p.round {
+	color:#2980BA;
+	font-weight: 600;
+  border: 0.5px solid lightgray;
+  border-radius: 20px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* .txt a{
+	color:#FFFFFF;
+} */
+
+.txt ul {
+	color: #2980BA;
+}
+
+.gridcontainer{
+	text-align: center;
+}
+
+.electric_grid{
+	display: inline-block;
+	/*border: solid 1px black;  for debug purposes */
+	position: relative;
+	width: 850px;
+	height: 380px;
+}
+
+.button{
+	border-radius:32px;
+	color:#FFFFFF;
+	font-weight: bold;
+	background-color: #2980BA;
+}
+
+.button a{
+	color: #FFFFFF;
+}
+
+#coal{
+	position: absolute;
+	top: 1%;
+	right: 73%;
+	opacity: 0.8;
+}
+#coal:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#naturalgas{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	opacity: 0.8;
+}
+
+#naturalgas:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#nuclear{
+	position: absolute;
+	top: 20%;
+	left: 38%;
+	opacity: 0.8;
+}
+
+#nuclear:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#solar{
+	position: absolute;
+	top: 55%;
+	left: 65%;
+	opacity: 0.8;
+}
+
+#solar:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#wind{
+	position: absolute;
+	top: 0%;
+	right: 8%;
+	opacity: 0.8;
+}
+
+#wind:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+.mancontainer {
+	text-align: center;
+
+}
+
+.man{
+	display: inline-block;
+	position: relative;
+
+}
+
+
+.listcontainer{
+	text-align: center;
+	height: 100px;
+
+}
+
+#li{
+	padding-top: 50px;
+	position: relative;
+	display: inline-block;
+
+	width: 700px;
+}
+
+#li1{
+	position: absolute;
+
+	left: 15%;
+}
+
+#li2{
+	position: absolute;
+
+	right: 15%;
+}
+
+.numbering{
+	font-weight: bold;
+	color: #2980BA;
+}
+
+.li_item{
+	font-weight: bold;
+}
+
+
+#ch4text{
+	position: absolute;
+	top: 4%;
+	left: 82%;
+}
+
+#ch4{
+	position: absolute;
+	top: 10%;
+	left: 84%;
+	opacity: 0.8;
+
+}
+
+#ch4:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#co2text{
+	position: absolute;
+	top: 13%;
+	left: 58%;
+}
+
+#co2{
+	position: absolute;
+	top: 21%;
+	left: 62%;
+	opacity: 0.8;
+
+}
+
+#co2:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#noxtext{
+	position: absolute;
+	top: 8%;
+	left: 26%;
+}
+
+#nox{
+	position: absolute;
+	top: 16%;
+	right: 62%;
+	opacity: 0.8;
+}
+
+#nox:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#pmtext{
+	position: absolute;
+	top: 50%;
+	right: 62%;
+}
+
+#pm{
+	position: absolute;
+	top: 33%;
+	right: 68%;
+	opacity: 0.8;
+}
+
+#pm:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+#so2text{
+	position: absolute;
+	top: 26%;
+	right: 80%;
+}
+
+#so2{
+	position: absolute;
+	top: 34%;
+	right: 82.5%;
+	opacity: 0.8;
+}
+
+#so2:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+#timeline0 {
+	position: absolute;
+	top: 111%;
+	left: 15.5%;
+	opacity: 0.8;}
+
+#timeline0:hover{
+		opacity: 1.0;
+		cursor: pointer;
+	}
+#timeline2 {
+		position: absolute;
+		top: 111%;
+		left: 43%;
+		opacity: 0.8;}
+
+#timeline2:hover{
+			opacity: 1.0;
+			cursor: pointer;
+		}
+#timeline3 {
+			position: absolute;
+			top: 111%;
+			left: 62%;
+			opacity: 0.8;}
+
+#timeline3:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+#timeline4 {
+				position: absolute;
+				top: 111%;
+				left: 71%;
+				opacity: 0.8;}
+#timeline4:hover{
+					opacity: 1.0;
+					cursor: pointer;
+				}
+#timeline5 {
+					position: absolute;
+					top: 111%;
+					left: 80%;
+					opacity: 0.8;}
+#timeline5:hover{
+						opacity: 1.0;
+						cursor: pointer;
+					}
+#timeline6 {
+						position: absolute;
+						top: 111%;
+						left: 69%;
+						opacity: 0.8;}
+#timeline6:hover{
+					  opacity: 1.0;
+						cursor: pointer;
+										}
+
+#timeline7 {
+						position: absolute;
+						top: 111%;
+						left: 82%;
+						opacity: 0.8;}
+
+#timeline7:hover{
+						opacity: 1.0;
+						cursor: pointer;
+										}
+
+/* .mapcontainer{
+	text-align: center;
+	border: 1px solid black;
+} */
+
+#ny {
+	position: absolute;
+	top: 17.5%;
+	right: 5.3%;
+	/* transform:rotate(-12deg); */
+	opacity: 0.8;
+}
+
+#ny:hover{
+		opacity: 1.0;
+		cursor: pointer;
+	}
+
+#ne {
+		position: absolute;
+		top: 31%;
+		right: 46.5%;
+		/* transform:rotate(-12deg); */
+		opacity: 0.8;
+	}
+
+#ne:hover{
+			opacity: 1.0;
+			cursor: pointer;
+		}
+
+
+#oh {
+			position: absolute;
+			top: 33%;
+			right: 20%;
+			/* transform:rotate(-12deg); */
+			opacity: 0.8;
+		}
+
+#oh:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+
+#tx {
+			position: absolute;
+			top: 56%;
+			right: 42.5%;
+			/* transform:rotate(-12deg); */
+			opacity: 0.8;
+		}
+
+#tx:hover{
+				opacity: 1.0;
+				cursor: pointer;
+			}
+
+#ky {
+				position: absolute;
+				top: 46%;
+				right: 22%;
+				opacity: 0.8;
+		}
+
+#ky:hover{
+				opacity: 1.0;
+				cursor: pointer;
+		}
+
+#ca {
+				position: absolute;
+				top: 25%;
+				left: 0%;
+				/* transform:rotate(-12deg); */
+				opacity: 0.8;
+			}
+
+#ca:hover{
+					opacity: 1.0;
+					cursor: pointer;
+				}
+
+.map{
+	display: inline-block;
+	position: relative;
+}
+
+
+.collapsible {
+  color: #F8F9F4;
+  cursor: pointer;
+  /* padding: 18px; */
+	position: absolute;
+  /* width: 100%; */
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  color: orange;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F8F9F4;
+}
+
+
+.plot{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+#energyPortfolio p {
+	color: #2980BA;
+}
+
+sup {
+	color: #lightgray;
+	/* text-decoration: underline; */
+}
+
+sub {
+	font-size: 0.85em;
+
+}
+
+/* Two Columns */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+	margin-left: 0px;
+}
+
+.tooltip1 p{
+	/* display: none; */
+
+}
+
+.tooltip1 .tooltip1text {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 110%;
+}
+
+.tooltip1 .tooltip1text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+	margin-left: 200px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent gray transparent transparent;
+}
+.tooltip1:hover .tooltip1text {
+  visibility: visible;
+}
+
+.title {
+	position: fixed;
+	top: 300px;
+	text-decoration-style::bold;
+	padding: 15px;
+	width: 150px;
+	text-align: left;
+	font-size: 10px;
+	color: blue;
+	font-weight: bold;
+	margin-left: 10px;
+	/* background-color: white; */
+	/* left: -80px; */
+}
+
+.sidenav{
+	background-color: white;
+}
+
+#mySidenav a {
+	/* left:-70px; */
+  position: fixed;
+  transition: 0.3s;
+  padding: 12px;
+  width: 150px;
+	text-align: left;
+  font-size: 12px;
+  color: gray;
+	opacity: 0.8;
+	font-style: italic;
+	margin-left: 10px;
+}
+
+#mySidenav a:hover {
+	/* left:0px; */
+  font-size: 14px;
+	opacity: 1.0;
+	color: orange;
+	font-weight: bold;
+}
+
+#pollutant {
+  top: 330px;
+	/* text-decoration: underline; */
+}
+
+#energy {
+  top: 355px;
+	/* text-decoration: underline; */
+}
+
+#portfolio {
+  top: 380px;
+	/* text-decoration: underline; */
+}
+
+#timeline {
+  top: 405px;
+	/* text-decoration: underline; */
+}
+
+#tool {
+  top: 430px;
+
+}
+
+.citation p{
+	text-align:right;
+	color: gray;
+	font-size: 9px;
+
+}
+
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
