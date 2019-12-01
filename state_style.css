@@ -48,8 +48,9 @@ h4 {
 }
 
 a{
-	color: #blue;
+	color: #4A4A4A;
 	font-size: normal;
+	text-decoration: underline;
 }
 
 .button a{

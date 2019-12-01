@@ -9,8 +9,19 @@ body {
 /* span {
 	display: 'block';
 } */
+
+a{
+	color: #4A4A4A;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: orange;
+}
+
 .round p{
 	text-align: center;
+	padding: 10px;
 }
 
 .txt a {
@@ -18,7 +29,7 @@ body {
 }
 
 .txt a:hover {
-  color: #9B9B9B;
+  color: orange;
 }
 
 .txt h1 {
@@ -63,7 +74,9 @@ body {
   border: 0.5px solid lightgray;
   border-radius: 20px;
 	background-color: #FFFFFF;
-	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top:10px;
 	padding-bottom: 10px;
 }
 
@@ -96,6 +109,8 @@ body {
 
 .button a{
 	color: #FFFFFF;
+	padding: 10px;
+
 }
 
 #coal{
