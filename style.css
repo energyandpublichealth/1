@@ -201,7 +201,7 @@ a:hover{
 #li1{
 	position: absolute;
 
-	left: 15%;
+	left: 8%;
 }
 
 #li2{
@@ -241,13 +241,13 @@ a:hover{
 
 #co2text{
 	position: absolute;
-	top: 13%;
+	top: 26%;
 	left: 58%;
 }
 
 #co2{
 	position: absolute;
-	top: 21%;
+	top: 32%;
 	left: 62%;
 	opacity: 0.8;
 
@@ -260,14 +260,14 @@ a:hover{
 
 #noxtext{
 	position: absolute;
-	top: 8%;
-	left: 26%;
+	top: 4%;
+	left: 11%;
 }
 
 #nox{
 	position: absolute;
-	top: 16%;
-	right: 62%;
+	top: 10%;
+	left: 13%;
 	opacity: 0.8;
 }
 
@@ -278,14 +278,14 @@ a:hover{
 
 #pmtext{
 	position: absolute;
-	top: 50%;
-	right: 62%;
+	top: 59%;
+	left: 20%;
 }
 
 #pm{
 	position: absolute;
-	top: 33%;
-	right: 68%;
+	top: 42%;
+	left: 24%;
 	opacity: 0.8;
 }
 
@@ -296,14 +296,14 @@ a:hover{
 
 #so2text{
 	position: absolute;
-	top: 26%;
-	right: 80%;
+	top: 52%;
+	left: -2%;
 }
 
 #so2{
 	position: absolute;
 	top: 34%;
-	right: 82.5%;
+	left: 0%;
 	opacity: 0.8;
 }
 

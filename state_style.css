@@ -11,16 +11,16 @@ body {
 h1 {
 	color: #9B9B9B;
 	/* margin-bottom: 80px; */
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	font-size: 28px; /* to be changed? */
 }
 
 h2 {
-	color: #gray;
-	margin-top: 0px;
+	color: gray;
 	font-size: 18px;
 	font-weight: medium; /* to be changed? */
+	text-align: center;
 }
 
 h3 {
@@ -29,6 +29,15 @@ h3 {
 	font-size: 14px;
 	font-weight:bold; /* to be changed? */
 }
+
+/* h4 {
+	color: gray;
+	font-size: 12px;
+	font-weight: medium; /* to be changed? */
+	padding-left: 40px;
+	text-align: left;
+} */
+
 
 
 p {
@@ -39,13 +48,6 @@ p {
 	margin-bottom: 30px;
 }
 
-h4 {
-	color: #4A4A4A;
-	font-size: 12px;
-	font-weight: normal; /* to be changed? */
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
 
 a{
 	color: #4A4A4A;
@@ -58,6 +60,7 @@ a{
 	font-size: 18px;
 	font-weight: bold;
 }
+
 
 sub {
 	font-size: 0.85em;
