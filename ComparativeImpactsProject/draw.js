@@ -1185,19 +1185,19 @@ function calcCO2(natGas, nuclear, coal, solar, wind, manip){  //calculate CO2 em
 
  function calcSO2(natGas, nuclear, coal, solar, wind, manip){
 
-        natGasSO2 = natGas * 0.0215; //avg g/kWh of SO2 from DoE 2010
+        natGasSO2 = natGas * 0.165; //avg g/kWh of SO2 from DoE 2010
         inputVals[4].so2N = natGasSO2;
 
-        nuclearSO2 = nuclear * 0.0205; //avg g/kWh of SO2 from DoE Denmark 2013
+        nuclearSO2 = nuclear * 0.035; //avg g/kWh of SO2 from DoE Denmark 2013
         inputVals[2].so2N = nuclearSO2;
 
-        coalSO2 = coal * 1.4;  //1.395 g avg DoE 2010
+        coalSO2 = coal * 1.25;  //1.395 g avg DoE 2010
         inputVals[3].so2N = coalSO2;
 
-        solarSO2 = solar * 0.21;  // .21 g avg DoE Denmark 2013
+        solarSO2 = solar * 0.215;  // .21 g avg DoE Denmark 2013
         inputVals[0].so2N = solarSO2;
 
-        windSO2 = wind * 0.055;  // .055 g avg DoE Denmark 2013
+        windSO2 = wind * 0.04;  // .055 g avg DoE Denmark 2013
         inputVals[1].so2N = windSO2;
 
         totalSO2 = natGasSO2 + nuclearSO2 + coalSO2 + solarSO2 + windSO2;
@@ -1220,19 +1220,19 @@ function calcCO2(natGas, nuclear, coal, solar, wind, manip){  //calculate CO2 em
 
   function calcNOx(natGas, nuclear, coal, solar, wind, manip){
 
-        natGasNOx = natGas * 0.325; //avg g/kWh of NOx from DoE 2010
+        natGasNOx = natGas * 0.4; //avg g/kWh of NOx from DoE 2010
         inputVals[4].noxN = natGasNOx;
 
-        nuclearNOx = nuclear * 0.025; //avg g/kWh of NOx from DoE Denmark
+        nuclearNOx = nuclear * 0.035; //avg g/kWh of NOx from DoE Denmark
         inputVals[2].noxN = nuclearNOx;
 
-        coalNOx = coal * 1.16; // 1.16 g avg DoE 2010
+        coalNOx = coal * 0.9; // 1.16 g avg DoE 2010
         inputVals[3].noxN = coalNOx;
 
-        solarNOx = solar * 0.275; // 0.275 g avg DoE Denmark
+        solarNOx = solar * 0.11; // 0.275 g avg DoE Denmark
         inputVals[0].noxN = solarNOx;
 
-        windNOx = wind * 0.065; // 0.065 DoE Denmark
+        windNOx = wind * 0.025; // 0.065 DoE Denmark
         inputVals[1].noxN = windNOx;
 
         totalNOx = natGasNOx + nuclearNOx + coalNOx + solarNOx + windNOx;
@@ -1262,7 +1262,7 @@ function calcCO2(natGas, nuclear, coal, solar, wind, manip){  //calculate CO2 em
 
       nuclearPM = nuclear * 0.01;
 
-      coalPM = coal * 0.13;
+      coalPM = coal * 1.35;
 
       solarPM = solar * 0.1;
 
@@ -1674,7 +1674,9 @@ document.getElementById("Q4").addEventListener("click", function(){
 
   popUpWindow.style.display = "inline-block";
   popUpTitle.innerHTML = "Land Required";
-  popUpBody.innerHTML = "Every electrical energy source requires space where their related generation technology, turbines, or panels will reside. The numbers represented here are an estimation of the amount of space needed for New York City’s energy portfolio as well as the portfolio you create. The graph reflects the amount of land needed if everyone in NYC used as much energy as you. Keep in mind that things like wind turbines, while requiring a lot of land, do leave open space in between them. Source: Trainor, Anne et. al., PLoS One, 2016";
+  popUpBody.innerHTML = "This bar graph compares the area of Manhattan (dark blue bar) to the land area needed for electricity for New York City assuming that everyone in the City consumes the same amount of electricity per month as the value you entered and for New York City’s electrical energy portfolio of 57% natural gas and 43% nuclear (maroon bar).The pink bar is the land area needed for your proposed electrical energy portfolio. This is an estimate of the land area necessary if everyone in NYC consumes the same amount of electricity per month and if this electricity is generated using your proposed electrical energy portfolio.";
+
+  // "Every electrical energy source requires space where their related generation technology, turbines, or panels will reside. The numbers represented here are an estimation of the amount of space needed for New York City’s energy portfolio as well as the portfolio you create. The graph reflects the amount of land needed if everyone in NYC used as much energy as you. Keep in mind that things like wind turbines, while requiring a lot of land, do leave open space in between them. Source: Trainor, Anne et. al., PLoS One, 2016";
 
 });
 

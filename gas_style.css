@@ -49,10 +49,14 @@ h4 {
 }
 
 a{
-	color: #4A4A4A;
+	color: black;
 	font-size: normal;
+	text-decoration: underline;
 }
 
+a:hover{
+	color: orange;
+}
 .button a{
 	color: #808080;
 	font-size: 18px;

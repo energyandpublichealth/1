@@ -369,8 +369,8 @@ body {
 #Q4{
   width:13px;
   position: absolute;
-  top:-2%;
- display:inline-block;
+  top:-10%;
+  display:inline-block;
  left:2%;
 }
 
@@ -499,7 +499,7 @@ body {
   display: inline-block;
   position: absolute;
   padding-left:8%;
-  top:-4%
+  top:-11%;
 }
 
 #landGraphTitle p{
